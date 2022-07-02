@@ -1,0 +1,48 @@
+.mainphoto{
+    width: 80%;
+    margin-left: 12%;
+}
+
+img{
+    width: 80%;   
+    margin-bottom: 5%;
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 5%;
+    font-size: 200%;
+}
+a{
+    text-decoration: none;   
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: underline; 
+    color: lightgreen;
+}
+ul{
+    border-bottom: 1px solid lightgreen;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
+.plants{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    text-align: center;
+    color: darkgreen;
+}
+
+.card{
+    border: solid 1px seagreen;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card:hover{
+    border: 1px solid #fff;
+    transform: scale(1.03);
+}
